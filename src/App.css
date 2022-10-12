@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Chewy&family=DynaPuff&family=Gabriela&family=Leckerli+One&family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chewy&family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chewy&family=Leckerli+One&family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Chewy&family=Leckerli+One&family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Spice&family=Chewy&family=DynaPuff&family=Leckerli+One&family=Pacifico&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Pacifico', cursive;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85vw;
+  height: 80vh;
+  text-align: center;
+  background-image: url('https://raw.githubusercontent.com/TylerPottsDev/weather-react/master/src/assets/cold-bg.jpg');
+  background: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #faf2f2;
+  color: red;
+}
+
+.warm {
+  background-image: url('https://raw.githubusercontent.com/TylerPottsDev/weather-react/master/src/assets/warm-bg.jpg');
+  color: black;
+}
+
+
+
+
+.nothing{
+  background-color: #bbb3b3;
+  width: 85vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+
+
+
+
+.input{
+  padding: 15px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px 16px 16px 16px;
+  margin: 2vh auto;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4s ease;}
+
+.first{
+  display: flex;
+  flex-direction: column;
+  width: 75;
+  margin: 0 auto;
+}
+
+
+.temp {
+  width: 75vw;
+  margin: 2vh auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+  width: 15vw;
+  font-weight: 900;
+
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.title{
+  font-family: 'Leckerli One', cursive;}
+
+@media screen and (max-width: 500px) {
+  .temp {
+    width: 70vw;
+    margin: 1.5vh auto;
+    font-size: 1.4rem;
+  }
+}
